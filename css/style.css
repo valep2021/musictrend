@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,800&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    /* FUENTE SACADA DE INTERNET DE GOOGLE FONTS */
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg-headerm.png);
+    opacity: 75%;
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    /* MARGEN INTERNO */
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    width: 45%;
+    display: inline-block
+}
+
+nav ul {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li :hover {
+    border-bottom: 2px solid white;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero img {
+    transition: .4s;
+    width: 15%;
+}
+
+#hero img:hover {
+    transform: scale(1.2) rotate(-360deg);
+}
+
+#hero h2 {
+    font-size: 55px;
+    color: #bcd3f2;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+#hero p {
+    color: #8CD867;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#hero button {
+    background: #ee7674;
+    padding: 15px 40px;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0 transparent;
+    margin-top: 50px;
+    transition: .4s;
+}
+
+#hero button:hover {
+    transform: scale(0.8);
+}
+
+#canciones {
+    width: 100%;
+    background: #575d90;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#canciones .container h2 {
+    font-size: 40px;
+    color: #8cd867;
+}
+
+#canciones .container p {
+    font-size: 18px;
+}
+
+#canciones .container .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#canciones .container .row .item-canciones {
+    position: relative;
+}
+
+#canciones .container .row .item-canciones h2 {
+    color: #8cd867;
+    font-size: 18px;
+    position: absolute;
+    top: 87px;
+    left: 0px;
+    right: 0px;
+}
+
+#artistas {
+    width: 100%;
+    background: url(../img/bg-artistas.png);
+    background-size: cover;
+    opacity: 80%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#artistas .container h2 {
+    font-size: 40px;
+    color: #0e9594;
+}
+
+#artistas .container .row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#artistas .container .row .item-artistas {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#artistas .container .row .item-artistas img {
+    transition: .6s;
+}
+
+#artistas .container .row .item-artistas img:hover {
+    transform: rotate(-360deg)
+}
+
+#contacto {
+    background: #575d90;
+    text-align: center;
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+#contacto h2 {
+    font-size: 40px;
+}
+
+#contacto p {
+    font-size: 18px;
+}
+
+#contacto .container .row .campo-f {
+    width: 300px;
+    padding: 12px 14px;
+    border-radius: 4px;
+    margin: 10px 10px;
+    font-size: 20px;
+    border: 1px solid #999999;
+}
+
+#contacto .container .row select {
+    /* CODIGO OBLIGATORIO !important */
+    width: 332px !important;
+    color: #757575;
+}
+
+#contacto .container form button {
+    background: #0e9594;
+    color: #ffffff;
+    padding: 12px 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+footer {
+    width: 100%;
+    color: #ffffff;
+    background: #ee7674;
+    text-align: center;
+    padding: 65px 0 60px;
+    font-size: 25px;
+}
